@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avatar AEC · Inicio</title>
+<meta name="description" content="Avatar AEC: captura de la realidad, BIM para proyectos y obra, activos digitales y transformación digital para edificios e infraestructuras.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',system-ui,sans-serif;color:#111412;background:#FFFFFF}
+*{box-sizing:border-box}
+h1,h2,h3{font-family:'Barlow Condensed',sans-serif;font-weight:700;letter-spacing:0.01em}
+a{color:#3F6A00}a:hover{color:#2B4A00}
+button,input,select,textarea{font:inherit}
+:focus-visible{outline:3px solid #B8E03A;outline-offset:2px}
+.dots{background-image:radial-gradient(rgba(184,224,58,0.10) 1px,transparent 1px);background-size:22px 22px}
+</style>
+<style>
+.pcard{text-align:left;padding:24px;border-radius:4px;cursor:pointer;min-height:188px;display:flex;flex-direction:column;gap:10px;border:2px solid #D5DBD0;background:#FFFFFF;color:#111412}
+.pcard .pnum{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:16px;color:#3F6A00}
+.pcard .pname{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:28px;line-height:1.05}
+.pcard .pshort{font-size:15px;line-height:1.5;color:#4A524A}
+.pcard[aria-pressed="true"]{background:#111412;border-color:#111412;color:#FFFFFF}
+.pcard[aria-pressed="true"] .pnum{color:#B8E03A}
+.pcard[aria-pressed="true"] .pshort{color:#C9D1C5}
+.lcard{border:1px solid #D5DBD0;border-top:6px solid #D5DBD0;border-radius:4px;padding:28px 24px;display:flex;flex-direction:column;gap:14px;background:#FFFFFF;opacity:.55;transition:opacity .2s}
+.lcard.on{opacity:1;border-color:#111412;border-top-color:#B8E03A}
+.lbadge{display:none;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;background:#111412;color:#FFFFFF;padding:5px 9px;border-radius:3px}
+.lcard.on .lbadge{display:inline-block}
+.chipline{background:#FFFFFF;border:1px solid #C5CCBF;color:#111412;text-decoration:none;padding:10px 14px;border-radius:3px;font-size:15px;font-weight:500}
+.offer{display:flex;gap:12px;align-items:flex-start;font-size:16px;line-height:1.5}
+.offer::before{content:"";width:10px;height:10px;background:#B8E03A;border:1px solid #3F6A00;margin-top:7px;flex-shrink:0}
+</style>
+</head>
+<body>
+<div style="width: 100%; background: #FFFFFF">
+
+<header style="background: #0E110E; border-bottom: 1px solid #232A21">
+<div style="max-width: 1200px; margin: 0 auto; padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap">
+<a href="/" style="display: flex; align-items: baseline; gap: 8px; text-decoration: none">
+<span style="width: 14px; height: 14px; background: #B8E03A; display: inline-block"></span>
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 28px; color: #FFFFFF; letter-spacing: 0.06em">AVATAR</span>
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 16px; color: #B8E03A; letter-spacing: 0.1em">AEC</span>
+</a>
+<nav aria-label="Principal" style="display: flex; align-items: center; gap: 28px; flex-wrap: wrap">
+<a href="#perfiles" style="color: #DCE3D8; text-decoration: none; font-size: 15px">Soluciones</a>
+<a href="#lineas" style="color: #DCE3D8; text-decoration: none; font-size: 15px">Servicios</a>
+<a href="#casos" style="color: #DCE3D8; text-decoration: none; font-size: 15px">Casos</a>
+<a href="#insights" style="color: #DCE3D8; text-decoration: none; font-size: 15px">Insights</a>
+<a href="#contacto" style="color: #DCE3D8; text-decoration: none; font-size: 15px">Empresa</a>
+<a href="#contacto" style="background: #B8E03A; color: #0E110E; text-decoration: none; font-weight: 600; font-size: 15px; padding: 12px 20px; border-radius: 3px">Hablemos</a>
+</nav>
+</div>
+</header>
+
+<section class="dots" style="background-color: #0E110E; color: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px 96px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 48px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 28px">
+<div style="font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: #B8E03A; font-weight: 600">Captura de la realidad · BIM · Activos digitales</div>
+<h1 style="margin: 0; font-size: 76px; line-height: 0.95; color: #FFFFFF">Del escaneo al modelo. De la obra a la operación.</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; color: #C9D1C5; max-width: 560px">Capturamos, modelamos y gestionamos la información de edificios e infraestructuras durante todo su ciclo de vida, con equipo y tecnología propios.</p>
+<div style="display: flex; gap: 14px; flex-wrap: wrap">
+<a href="#perfiles" style="background: #B8E03A; color: #0E110E; text-decoration: none; font-weight: 600; padding: 15px 24px; border-radius: 3px">Encuentra tu solución</a>
+<a href="#casos" style="border: 1px solid #5B6657; color: #FFFFFF; text-decoration: none; font-weight: 500; padding: 14px 24px; border-radius: 3px">Ver casos</a>
+</div>
+</div>
+<figure style="margin: 0; display: flex; flex-direction: column; align-items: center; gap: 12px">
+<svg viewBox="0 0 480 480" width="100%" style="max-width: 460px" role="img" aria-label="Edificio despiezado por plantas en estilo nube de puntos">
+<g fill="rgba(184,224,58,0.05)" stroke="#B8E03A" stroke-width="3" stroke-linecap="round" stroke-dasharray="0.1 8">
+<polygon points="240,40 420,130 240,220 60,130"></polygon>
+<polygon points="240,100 420,190 240,280 60,190"></polygon>
+<polygon points="240,160 420,250 240,340 60,250"></polygon>
+<polygon points="240,220 420,310 240,400 60,310"></polygon>
+<polygon points="240,280 420,370 240,460 60,370"></polygon>
+</g>
+<g stroke="#E4F2B8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="0.1 6" fill="none">
+<line x1="60" y1="130" x2="60" y2="370"></line>
+<line x1="240" y1="220" x2="240" y2="460"></line>
+<line x1="420" y1="130" x2="420" y2="370"></line>
+<line x1="150" y1="175" x2="330" y2="85"></line>
+<line x1="150" y1="355" x2="330" y2="265"></line>
+</g>
+<g stroke="#6F8F2A" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.1 9" fill="none">
+<line x1="240" y1="40" x2="240" y2="280"></line>
+</g>
+</svg>
+<figcaption style="font-size: 13px; color: #8C968A">[Sustituir por una nube de puntos real: subestación, tienda o edificio despiezado]</figcaption>
+</figure>
+</div>
+</section>
+
+<section id="perfiles" style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 760px">
+<div style="font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: #3F6A00; font-weight: 600">Empieza por tu perfil</div>
+<h2 style="margin: 0; font-size: 52px; line-height: 1">¿Quién eres?</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #4A524A">Elige tu perfil y te mostramos lo que podemos hacer por ti, sin recorrer todo el catálogo.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px">
+<button type="button" class="pcard" data-profile="arq" aria-pressed="false">
+<span class="pnum">01</span>
+<span class="pname">Arquitectura e ingeniería</span>
+<span class="pshort">Estudios y oficinas técnicas que proyectan sobre lo existente.</span>
+</button>
+<button type="button" class="pcard" data-profile="pro" aria-pressed="false">
+<span class="pnum">02</span>
+<span class="pname">Promotores e inversores</span>
+<span class="pshort">Quien decide sobre suelo, edificios y carteras inmobiliarias.</span>
+</button>
+<button type="button" class="pcard" data-profile="con" aria-pressed="false">
+<span class="pnum">03</span>
+<span class="pname">Constructoras</span>
+<span class="pshort">Jefaturas de obra, oficinas técnicas y gerencias de proyecto.</span>
+</button>
+<button type="button" class="pcard" data-profile="own" aria-pressed="false">
+<span class="pnum">04</span>
+<span class="pname">Propietarios y operadores</span>
+<span class="pshort">Retail, energía, industria, data centers e inmuebles en explotación.</span>
+</button>
+</div>
+<div style="background: #F3F5F1; border-radius: 4px; padding: 36px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); gap: 36px">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<h3 style="margin: 0; font-size: 34px; line-height: 1.05">Para <span id="sel-name">propietarios y operadores</span></h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #4A524A"><strong style="color: #111412">El problema habitual:</strong> <span id="sel-pain"></span></p>
+<ul id="sel-offers" style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px"></ul>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px; justify-content: space-between">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #4A524A; font-weight: 600">Líneas de servicio que te aplican</div>
+<div id="sel-lines" style="display: flex; flex-wrap: wrap; gap: 10px"></div>
+</div>
+<a id="sel-page" href="/propietarios" style="align-self: flex-start; background: #111412; color: #FFFFFF; text-decoration: none; font-weight: 600; padding: 15px 22px; border-radius: 3px">Ver la página de tu perfil →</a>
+<span id="sel-nopage" hidden style="font-size: 15px; color: #4A524A">[Página de este perfil en preparación]</span>
+</div>
+</div>
+<p style="margin: 0; font-size: 16px; color: #4A524A">¿Ya sabes lo que necesitas? <a href="#lineas">Ve directamente a las líneas de servicio</a>.</p>
+</div>
+</section>
+
+<section style="background: #F3F5F1">
+<div style="max-width: 1200px; margin: 0 auto; padding: 72px 24px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 60px; line-height: 1">50+</span><span style="font-size: 15px; color: #4A524A; line-height: 1.5">tiendas escaneadas y modeladas para una cadena de moda internacional</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 60px; line-height: 1">13</span><span style="font-size: 15px; color: #4A524A; line-height: 1.5">países con campañas de captura ejecutadas</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 60px; line-height: 1">24 h</span><span style="font-size: 15px; color: #4A524A; line-height: 1.5">de la tienda escaneada a la nube registrada lista para modelar</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 60px; line-height: 1">[N.º]</span><span style="font-size: 15px; color: #4A524A; line-height: 1.5">m² capturados · proyectos BIM · años de experiencia</span></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px; border-top: 1px solid #D5DBD0; padding-top: 28px">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #4A524A; font-weight: 600">Han confiado en nosotros</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px 44px; align-items: center">
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 26px; color: #3A4237">INDITEX</span>
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 26px; color: #3A4237">MERLIN PROPERTIES</span>
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 26px; color: #3A4237">CONSTRUCTORA SAN JOSÉ</span>
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 26px; color: #3A4237">GRUPO ATLANTE</span>
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 26px; color: #3A4237">VALORA</span>
+<span style="font-size: 15px; color: #4A524A">[más logos · confirmar autorización de uso]</span>
+</div>
+</div>
+</div>
+</section>
+
+<section id="lineas" style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 800px">
+<div style="font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: #3F6A00; font-weight: 600">Servicios</div>
+<h2 style="margin: 0; font-size: 52px; line-height: 1">Cuatro líneas, un mismo hilo de información</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #4A524A">Resaltadas las que aplican a <strong id="sel-name-2" style="color: #111412">propietarios y operadores</strong>. Cambia de perfil arriba para ver otras combinaciones.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px">
+<article class="lcard" data-line="captura">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 8px">
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 18px; color: #3F6A00">01</span>
+<span class="lbadge">Para tu perfil</span>
+</div>
+<h3 style="margin: 0; font-size: 30px; line-height: 1.05">Captura de la realidad</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4A524A">Documentamos lo existente con escáner láser, drones y fotogrametría.</p>
+<ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; line-height: 1.45">
+<li>Escáner láser terrestre</li><li>Drones: fotogrametría y LiDAR</li><li>Tour virtual 360</li><li>Topografía y cartografía</li>
+</ul>
+<a href="/captura" style="margin-top: auto; font-weight: 600; font-size: 15px">Ver la línea →</a>
+</article>
+<article class="lcard" data-line="bim">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 8px">
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 18px; color: #3F6A00">02</span>
+<span class="lbadge">Para tu perfil</span>
+</div>
+<h3 style="margin: 0; font-size: 30px; line-height: 1.05">BIM para proyectos y obra</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4A524A">Modelamos, coordinamos y gestionamos la información en diseño y construcción.</p>
+<ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; line-height: 1.45">
+<li>Scan-to-BIM y modelado as-built</li><li>Modelado y documentación BIM</li><li>Coordinación y gestión BIM</li><li>BIM Manager en obra y CDE</li><li>Mediciones y control de costes</li>
+</ul>
+<a href="#contacto" style="margin-top: auto; font-weight: 600; font-size: 15px">[Página en preparación]</a>
+</article>
+<article class="lcard" data-line="activos">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 8px">
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 18px; color: #3F6A00">03</span>
+<span class="lbadge">Para tu perfil</span>
+</div>
+<h3 style="margin: 0; font-size: 30px; line-height: 1.05">Activos digitales</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4A524A">Convertimos los modelos en información útil para operar y mantener.</p>
+<ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; line-height: 1.45">
+<li>Modelos para operación y mantenimiento</li><li>Requisitos de información y validación IFC + IDS</li><li>Integración con GMAO, ERP e IoT</li><li>Gemelo digital y portfolio de activos</li>
+</ul>
+<a href="#contacto" style="margin-top: auto; font-weight: 600; font-size: 15px">[Página en preparación]</a>
+</article>
+<article class="lcard" data-line="transf">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 8px">
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 18px; color: #3F6A00">04</span>
+<span class="lbadge">Para tu perfil</span>
+</div>
+<h3 style="margin: 0; font-size: 30px; line-height: 1.05">Transformación digital</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4A524A">Ayudamos a tu organización a trabajar en BIM de forma estable.</p>
+<ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; line-height: 1.45">
+<li>Estrategia e implantación BIM</li><li>Preparación para ISO 19650</li><li>Plantillas y estándares</li><li>Automatización y desarrollo: Dynamo, Python, add-ins</li><li>Formación a medida</li>
+</ul>
+<a href="#contacto" style="margin-top: auto; font-weight: 600; font-size: 15px">[Página en preparación]</a>
+</article>
+</div>
+</div>
+</section>
+
+<section class="dots" style="background-color: #0E110E; color: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 760px">
+<div style="font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: #B8E03A; font-weight: 600">Nuestro método</div>
+<h2 style="margin: 0; font-size: 52px; line-height: 1; color: #FFFFFF">Un solo equipo para todo el ciclo de vida</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #C9D1C5">Capturamos nosotros mismos lo que luego modelamos, gestionamos y entregamos. La información no se pierde entre proveedores.</p>
+</div>
+<ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px">
+<li style="border-top: 3px dotted #B8E03A; padding-top: 20px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 44px; color: #B8E03A; line-height: 1">01</span>
+<h3 style="margin: 0; font-size: 28px; color: #FFFFFF">Capturar</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C9D1C5">Escáner láser, drones y 360. Nube registrada y georreferenciada.</p>
+</li>
+<li style="border-top: 3px dotted #B8E03A; padding-top: 20px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 44px; color: #B8E03A; line-height: 1">02</span>
+<h3 style="margin: 0; font-size: 28px; color: #FFFFFF">Modelar</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C9D1C5">Scan-to-BIM y modelado de proyecto en Revit e IFC, con el nivel de detalle pactado.</p>
+</li>
+<li style="border-top: 3px dotted #B8E03A; padding-top: 20px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 44px; color: #B8E03A; line-height: 1">03</span>
+<h3 style="margin: 0; font-size: 28px; color: #FFFFFF">Construir</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C9D1C5">BIM Manager en obra, entorno común de datos y as-built al día.</p>
+</li>
+<li style="border-top: 3px dotted #B8E03A; padding-top: 20px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 44px; color: #B8E03A; line-height: 1">04</span>
+<h3 style="margin: 0; font-size: 28px; color: #FFFFFF">Operar</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C9D1C5">Datos de activo validados (IFC + IDS) y conectados a tu GMAO o ERP.</p>
+</li>
+</ol>
+</div>
+</section>
+
+<section style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px 72px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 760px">
+<div style="font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: #3F6A00; font-weight: 600">Sectores</div>
+<h2 style="margin: 0; font-size: 52px; line-height: 1">Tu sector, tus requisitos</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #4A524A">Adaptamos el alcance, los requisitos de información y los entregables a cada tipo de activo.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<a href="#casos" style="border: 1px solid #C5CCBF; color: #111412; text-decoration: none; padding: 12px 18px; border-radius: 3px; font-weight: 500">Retail</a>
+<a href="#casos" style="border: 1px solid #C5CCBF; color: #111412; text-decoration: none; padding: 12px 18px; border-radius: 3px; font-weight: 500">Energía y utilities</a>
+<a href="#casos" style="border: 1px solid #C5CCBF; color: #111412; text-decoration: none; padding: 12px 18px; border-radius: 3px; font-weight: 500">Infraestructura y transporte</a>
+<a href="#casos" style="border: 1px solid #C5CCBF; color: #111412; text-decoration: none; padding: 12px 18px; border-radius: 3px; font-weight: 500">Industria</a>
+<a href="#casos" style="border: 1px solid #C5CCBF; color: #111412; text-decoration: none; padding: 12px 18px; border-radius: 3px; font-weight: 500">Data centers</a>
+<a href="#casos" style="border: 1px solid #C5CCBF; color: #111412; text-decoration: none; padding: 12px 18px; border-radius: 3px; font-weight: 500">Oficinas</a>
+<a href="#casos" style="border: 1px solid #C5CCBF; color: #111412; text-decoration: none; padding: 12px 18px; border-radius: 3px; font-weight: 500">Residencial</a>
+<a href="#casos" style="border: 1px solid #C5CCBF; color: #111412; text-decoration: none; padding: 12px 18px; border-radius: 3px; font-weight: 500">Hoteles</a>
+<a href="#casos" style="border: 1px solid #C5CCBF; color: #111412; text-decoration: none; padding: 12px 18px; border-radius: 3px; font-weight: 500">Patrimonio</a>
+<a href="#casos" style="border: 1px solid #C5CCBF; color: #111412; text-decoration: none; padding: 12px 18px; border-radius: 3px; font-weight: 500">Logística</a>
+<a href="#casos" style="border: 1px solid #C5CCBF; color: #111412; text-decoration: none; padding: 12px 18px; border-radius: 3px; font-weight: 500">Sanidad</a>
+<a href="#casos" style="border: 1px solid #C5CCBF; color: #111412; text-decoration: none; padding: 12px 18px; border-radius: 3px; font-weight: 500">Administración pública</a>
+</div>
+</div>
+</section>
+
+<section id="casos" style="background: #F3F5F1">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 760px">
+<div style="font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: #3F6A00; font-weight: 600">Casos</div>
+<h2 style="margin: 0; font-size: 52px; line-height: 1">Casos con datos, no con adjetivos</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr)); gap: 20px">
+
+<article style="background: #FFFFFF; border: 1px solid #D5DBD0; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column">
+<div class="dots" style="background-color: #0E110E; height: 200px; display: flex; align-items: center; justify-content: center; padding: 16px; text-align: center; color: #8C968A; font-size: 13px">[Imagen: nube de puntos de tienda]</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #3F6A00">Retail</span><span style="font-size: 12px; color: #4A524A">· Captura · BIM</span></div>
+<h3 style="margin: 0; font-size: 28px; line-height: 1.05">Campañas de escaneo de tiendas en 13 países</h3>
+<dl style="margin: 0; display: grid; grid-template-columns: 96px 1fr; gap: 8px 12px; font-size: 14px; line-height: 1.45">
+<dt style="color: #4A524A">Cliente</dt><dd style="margin: 0">Inditex, a través de Grupo Atlante y Valora</dd>
+<dt style="color: #4A524A">Alcance</dt><dd style="margin: 0">50+ tiendas · 4 campañas (2021–2024)</dd>
+<dt style="color: #4A524A">Plazo</dt><dd style="margin: 0">1 día de escaneo por tienda; nube registrada al día siguiente</dd>
+<dt style="color: #4A524A">Entrega</dt><dd style="margin: 0">Nube de puntos registrada lista para modelar · [modelo BIM / planos]</dd>
+</dl>
+</div>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #D5DBD0; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column">
+<div class="dots" style="background-color: #0E110E; height: 200px; display: flex; align-items: center; justify-content: center; padding: 16px; text-align: center; color: #8C968A; font-size: 13px">[Imagen: modelo federado de obra]</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #3F6A00">Oficinas</span><span style="font-size: 12px; color: #4A524A">· BIM en obra</span></div>
+<h3 style="margin: 0; font-size: 28px; line-height: 1.05">BIM Manager en obra: edificio Ruiz Picasso</h3>
+<dl style="margin: 0; display: grid; grid-template-columns: 96px 1fr; gap: 8px 12px; font-size: 14px; line-height: 1.45">
+<dt style="color: #4A524A">Cliente</dt><dd style="margin: 0">Constructora San José, para Merlin Properties</dd>
+<dt style="color: #4A524A">Alcance</dt><dd style="margin: 0">[m²] · gestión del entorno común de datos y coordinación de modelos</dd>
+<dt style="color: #4A524A">Plazo</dt><dd style="margin: 0">2021–2024</dd>
+<dt style="color: #4A524A">Entrega</dt><dd style="margin: 0">As-built federado · formación del equipo de obra</dd>
+</dl>
+</div>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #D5DBD0; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column">
+<div class="dots" style="background-color: #0E110E; height: 200px; display: flex; align-items: center; justify-content: center; padding: 16px; text-align: center; color: #8C968A; font-size: 13px">[Imagen: nube de puntos de subestación]</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #3F6A00">Energía</span><span style="font-size: 12px; color: #4A524A">· Captura · Activos</span></div>
+<h3 style="margin: 0; font-size: 28px; line-height: 1.05">Subestación de alta tensión</h3>
+<dl style="margin: 0; display: grid; grid-template-columns: 96px 1fr; gap: 8px 12px; font-size: 14px; line-height: 1.45">
+<dt style="color: #4A524A">Cliente</dt><dd style="margin: 0">[CLIENTE o "utility española"]</dd>
+<dt style="color: #4A524A">Alcance</dt><dd style="margin: 0">[m² · n.º de posiciones]</dd>
+<dt style="color: #4A524A">Plazo</dt><dd style="margin: 0">[días en campo · días de entrega]</dd>
+<dt style="color: #4A524A">Entrega</dt><dd style="margin: 0">Nube georreferenciada · [modelo IFC para mantenimiento]</dd>
+</dl>
+</div>
+</article>
+
+</div>
+<a href="#casos" style="align-self: flex-start; font-weight: 600">Ver todos los casos, filtrados por perfil y sector →</a>
+</div>
+</section>
+
+<section id="insights" style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 760px">
+<div style="font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: #3F6A00; font-weight: 600">Insights</div>
+<h2 style="margin: 0; font-size: 52px; line-height: 1">Lo que sabemos, publicado</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #4A524A">Guías y casos técnicos. Primeros temas propuestos:</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px">
+<a href="#insights" style="text-decoration: none; color: #111412; border: 1px solid #D5DBD0; border-radius: 4px; padding: 24px; display: flex; flex-direction: column; gap: 10px"><span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #3F6A00">Guía</span><span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 26px; line-height: 1.1">Cómo pedir un escaneo láser: qué precisión y qué entregable necesitas</span></a>
+<a href="#insights" style="text-decoration: none; color: #111412; border: 1px solid #D5DBD0; border-radius: 4px; padding: 24px; display: flex; flex-direction: column; gap: 10px"><span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #3F6A00">Caso</span><span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 26px; line-height: 1.1">Escanear una tienda en un día y entregar la nube al siguiente: el método</span></a>
+<a href="#insights" style="text-decoration: none; color: #111412; border: 1px solid #D5DBD0; border-radius: 4px; padding: 24px; display: flex; flex-direction: column; gap: 10px"><span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #3F6A00">Guía</span><span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 26px; line-height: 1.1">Del modelo as-built al GMAO: requisitos de información con IFC e IDS</span></a>
+</div>
+</div>
+</section>
+
+<section id="contacto" class="dots" style="background-color: #0E110E; color: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-size: 52px; line-height: 1; color: #FFFFFF">Cuéntanos qué necesitas</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #C9D1C5">Te respondemos con una propuesta de alcance, plazo y entregables en [48 h].</p>
+<div style="display: flex; flex-direction: column; gap: 10px; font-size: 16px; color: #DCE3D8">
+<span>Puente la Reina 35, 28050 Madrid</span>
+<span>[TELÉFONO] · WhatsApp</span>
+<span>[EMAIL]</span>
+</div>
+</div>
+<form style="display: flex; flex-direction: column; gap: 16px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px">
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: #C9D1C5">Perfil
+<select style="background: #171C16; border: 1px solid #3A4337; color: #FFFFFF; padding: 12px; border-radius: 3px">
+<option>Propietario u operador</option>
+<option>Constructora</option>
+<option>Arquitectura o ingeniería</option>
+<option>Promotor o inversor</option>
+<option>Otro</option>
+</select>
+</label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: #C9D1C5">Qué necesitas
+<select style="background: #171C16; border: 1px solid #3A4337; color: #FFFFFF; padding: 12px; border-radius: 3px">
+<option>Captura de la realidad</option>
+<option>BIM para proyectos y obra</option>
+<option>Activos digitales</option>
+<option>Transformación digital</option>
+<option>No lo sé aún</option>
+</select>
+</label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: #C9D1C5">Ubicación
+<input type="text" placeholder="Ciudad o país" style="background: #171C16; border: 1px solid #3A4337; color: #FFFFFF; padding: 12px; border-radius: 3px">
+</label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: #C9D1C5">Superficie aproximada
+<input type="text" placeholder="m²" style="background: #171C16; border: 1px solid #3A4337; color: #FFFFFF; padding: 12px; border-radius: 3px">
+</label>
+</div>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: #C9D1C5">Email
+<input type="email" style="background: #171C16; border: 1px solid #3A4337; color: #FFFFFF; padding: 12px; border-radius: 3px">
+</label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: #C9D1C5">Cuéntanos el proyecto
+<textarea rows="4" style="background: #171C16; border: 1px solid #3A4337; color: #FFFFFF; padding: 12px; border-radius: 3px; resize: vertical"></textarea>
+</label>
+<button type="button" style="align-self: flex-start; background: #B8E03A; color: #0E110E; border: none; font-weight: 600; padding: 15px 26px; border-radius: 3px; cursor: pointer">Pedir propuesta</button>
+</form>
+</div>
+</section>
+
+<footer style="background: #080A08; color: #9AA396">
+<div style="max-width: 1200px; margin: 0 auto; padding: 32px 24px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 14px">
+<span>© Avatar AEC · Captura de la realidad · BIM · Activos digitales · Transformación digital</span>
+<span>Aviso legal · Privacidad · Cookies · LinkedIn</span>
+</div>
+</footer>
+
+</div>
+<script>
+(function(){
+var P={
+ arq:{name:'arquitectura e ingeniería',pain:'levantamientos que no cuadran con la realidad, modelos de disciplinas que no se coordinan y horas perdidas en tareas repetitivas.',offers:['Levantamiento láser del estado actual, entregado en Revit o IFC','Modelado, documentación y coordinación BIM de tu proyecto','Plantillas, automatizaciones y formación para tu equipo'],lines:['captura','bim','transf'],page:''},
+ pro:{name:'promotores e inversores',pain:'due diligence sin datos fiables del activo, costes que se desvían y proyectos que llegan a obra sin control de la información.',offers:['Escaneo del activo antes de comprar o reformar','Gestión BIM del proyecto con control de alcance y coste','Información del edificio lista para la operación y la venta'],lines:['captura','bim','activos'],page:''},
+ con:{name:'constructoras',pain:'as-built que nadie actualiza, mediciones que no cuadran y una entrega a la propiedad sin datos utilizables.',offers:['BIM Manager en obra y gestión del entorno común de datos','Control del estado real de la obra con escaneos periódicos','Modelo as-built y documentación de entrega a la propiedad'],lines:['captura','bim','activos'],page:''},
+ own:{name:'propietarios y operadores',pain:'planos desactualizados, información dispersa entre contratistas y modelos BIM que el mantenimiento no puede usar.',offers:['Captura del estado actual sin detener la operación','Modelos as-built con los datos que pide tu GMAO o ERP','Requisitos de información y estándares para tus contratistas (ISO 19650)'],lines:['captura','activos','transf'],page:'/propietarios'}
+};
+var LN={captura:'Captura de la realidad',bim:'BIM para proyectos y obra',activos:'Activos digitales',transf:'Transformación digital'};
+function el(t,c,txt){var e=document.createElement(t);if(c)e.className=c;if(txt)e.textContent=txt;return e;}
+function select(id){
+ var p=P[id];
+ document.querySelectorAll('.pcard').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.profile===id?'true':'false');});
+ document.getElementById('sel-name').textContent=p.name;
+ document.getElementById('sel-name-2').textContent=p.name;
+ document.getElementById('sel-pain').textContent=p.pain;
+ var ul=document.getElementById('sel-offers');ul.replaceChildren();
+ p.offers.forEach(function(o){ul.appendChild(el('li','offer',o));});
+ var ls=document.getElementById('sel-lines');ls.replaceChildren();
+ p.lines.forEach(function(l){var a=el('a','chipline',LN[l]);a.href=l==='captura'?'/captura':'#lineas';ls.appendChild(a);});
+ var pg=document.getElementById('sel-page'),np=document.getElementById('sel-nopage');
+ if(p.page){pg.hidden=false;pg.href=p.page;np.hidden=true;}else{pg.hidden=true;np.hidden=false;}
+ document.querySelectorAll('.lcard').forEach(function(c){c.classList.toggle('on',p.lines.indexOf(c.dataset.line)!==-1);});
+}
+document.querySelectorAll('.pcard').forEach(function(b){b.addEventListener('click',function(){select(b.dataset.profile);});});
+select('own');
+})();
+</script>
+</body>
+</html>
