@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Avatar AEC · Captura de la realidad</title>
 <meta name="description" content="Escaneo láser 3D, drones, fotogrametría y tour 360: nube de puntos, modelo BIM y planos del estado actual.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap">
@@ -22,11 +26,9 @@ button,input,select,textarea{font:inherit}
 <div style="width: 100%; background: #FFFFFF">
 
 <header style="background: #0E110E; border-bottom: 1px solid #232A21">
-<div style="max-width: 1200px; margin: 0 auto; padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap">
-<a href="/" style="display: flex; align-items: baseline; gap: 8px; text-decoration: none">
-<span style="width: 14px; height: 14px; background: #B8E03A; display: inline-block"></span>
-<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 28px; color: #FFFFFF; letter-spacing: 0.06em">AVATAR</span>
-<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 16px; color: #B8E03A; letter-spacing: 0.1em">AEC</span>
+<div style="max-width: 1200px; margin: 0 auto; padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap">
+<a href="/" aria-label="Avatar, inicio" style="display: flex; align-items: center; text-decoration: none">
+<span style="display: inline-block; width: 56px; height: 56px; background: #333333; line-height: 0"><img src="assets/avatar-mark.png" alt="Avatar" width="56" height="56" style="width: 100%; height: 100%; display: block"></span>
 </a>
 <nav aria-label="Principal" style="display: flex; align-items: center; gap: 28px; flex-wrap: wrap">
 <a href="/" style="color: #DCE3D8; text-decoration: none; font-size: 15px">Soluciones</a>
@@ -43,7 +45,7 @@ button,input,select,textarea{font:inherit}
 <div style="display: flex; flex-direction: column; gap: 22px">
 <nav aria-label="Ruta" style="font-size: 14px; color: #9AA396"><a href="/" style="color: #C9D1C5">Inicio</a> / Servicios / Captura de la realidad</nav>
 <div style="font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: #B8E03A; font-weight: 600">Línea 01</div>
-<h1 style="margin: 0; font-size: 76px; line-height: 0.95; color: #FFFFFF">Captura de la realidad</h1>
+<h1 style="margin: 0; font-size: clamp(42px, 8vw, 76px); line-height: 0.95; color: #FFFFFF">Captura de la realidad</h1>
 <p style="margin: 0; font-size: 19px; line-height: 1.6; color: #C9D1C5; max-width: 560px">Documentamos lo existente con escáner láser, drones y fotogrametría, y lo entregamos en el formato que tu equipo ya usa: nube, modelo BIM o planos.</p>
 <a href="#presupuesto" style="align-self: flex-start; background: #B8E03A; color: #0E110E; text-decoration: none; font-weight: 600; padding: 15px 24px; border-radius: 3px">Pide presupuesto de escaneo</a>
 </div>
@@ -137,19 +139,19 @@ button,input,select,textarea{font:inherit}
 <h2 style="margin: 0; font-size: 46px; line-height: 1; color: #FFFFFF">Dónde lo aplicamos</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px">
 <div style="border: 1px solid #3A4337; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column">
-<div style="height: 150px; display: flex; align-items: center; justify-content: center; color: #8C968A; font-size: 13px; padding: 12px; text-align: center; border-bottom: 1px solid #3A4337">[Imagen: fachada histórica]</div>
+<div style="height: 180px; display: flex; align-items: center; justify-content: center; padding: 12px; border-bottom: 1px solid #3A4337"><img src="assets/patrimonio.webp" alt="Nube de puntos de una fachada histórica" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block"></div>
 <div style="padding: 22px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 26px; color: #FFFFFF">Patrimonio</h3><p style="margin: 0; font-size: 14px; line-height: 1.55; color: #C9D1C5">Documentación sin contacto para restauración, deformaciones y patologías.</p></div>
 </div>
 <div style="border: 1px solid #3A4337; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column">
-<div style="height: 150px; display: flex; align-items: center; justify-content: center; color: #8C968A; font-size: 13px; padding: 12px; text-align: center; border-bottom: 1px solid #3A4337">[Imagen: edificio en rehabilitación]</div>
+<div style="height: 180px; display: flex; align-items: center; justify-content: center; padding: 12px; border-bottom: 1px solid #3A4337"><img src="assets/rehabilitacion.webp" alt="Nube de puntos de un edificio en rehabilitación" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block"></div>
 <div style="padding: 22px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 26px; color: #FFFFFF">Rehabilitación</h3><p style="margin: 0; font-size: 14px; line-height: 1.55; color: #C9D1C5">Base exacta para refuerzos, cambios de uso y control de desplazamientos.</p></div>
 </div>
 <div style="border: 1px solid #3A4337; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column">
-<div style="height: 150px; display: flex; align-items: center; justify-content: center; color: #8C968A; font-size: 13px; padding: 12px; text-align: center; border-bottom: 1px solid #3A4337">[Imagen: parcela con dron]</div>
+<div style="height: 180px; display: flex; align-items: center; justify-content: center; padding: 12px; border-bottom: 1px solid #3A4337"><img src="assets/plaza.webp" alt="Nube de puntos de una plaza de toros y su entorno" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block"></div>
 <div style="padding: 22px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 26px; color: #FFFFFF">Territorio</h3><p style="margin: 0; font-size: 14px; line-height: 1.55; color: #C9D1C5">Levantamientos topográficos, modelo del terreno y seguimiento de obra.</p></div>
 </div>
 <div style="border: 1px solid #3A4337; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column">
-<div style="height: 150px; display: flex; align-items: center; justify-content: center; color: #8C968A; font-size: 13px; padding: 12px; text-align: center; border-bottom: 1px solid #3A4337">[Imagen: subestación]</div>
+<div style="height: 180px; display: flex; align-items: center; justify-content: center; padding: 12px; border-bottom: 1px solid #3A4337"><img src="assets/subestacion.webp" alt="Nube de puntos de una subestación eléctrica" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block"></div>
 <div style="padding: 22px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-size: 26px; color: #FFFFFF">Infraestructuras</h3><p style="margin: 0; font-size: 14px; line-height: 1.55; color: #C9D1C5">Subestaciones, parques solares, presas y puentes: diagnóstico y mantenimiento.</p></div>
 </div>
 </div>

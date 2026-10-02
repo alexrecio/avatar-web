@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Avatar AEC · Inicio</title>
 <meta name="description" content="Avatar AEC: captura de la realidad, BIM para proyectos y obra, activos digitales y transformación digital para edificios e infraestructuras.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap">
@@ -38,11 +42,9 @@ button,input,select,textarea{font:inherit}
 <div style="width: 100%; background: #FFFFFF">
 
 <header style="background: #0E110E; border-bottom: 1px solid #232A21">
-<div style="max-width: 1200px; margin: 0 auto; padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap">
-<a href="/" style="display: flex; align-items: baseline; gap: 8px; text-decoration: none">
-<span style="width: 14px; height: 14px; background: #B8E03A; display: inline-block"></span>
-<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 28px; color: #FFFFFF; letter-spacing: 0.06em">AVATAR</span>
-<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 16px; color: #B8E03A; letter-spacing: 0.1em">AEC</span>
+<div style="max-width: 1200px; margin: 0 auto; padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap">
+<a href="/" aria-label="Avatar, inicio" style="display: flex; align-items: center; text-decoration: none">
+<span style="display: inline-block; width: 56px; height: 56px; background: #333333; line-height: 0"><img src="assets/avatar-mark.png" alt="Avatar" width="56" height="56" style="width: 100%; height: 100%; display: block"></span>
 </a>
 <nav aria-label="Principal" style="display: flex; align-items: center; gap: 28px; flex-wrap: wrap">
 <a href="#perfiles" style="color: #DCE3D8; text-decoration: none; font-size: 15px">Soluciones</a>
@@ -59,35 +61,14 @@ button,input,select,textarea{font:inherit}
 <div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px 96px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 48px; align-items: center">
 <div style="display: flex; flex-direction: column; gap: 28px">
 <div style="font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: #B8E03A; font-weight: 600">Captura de la realidad · BIM · Activos digitales</div>
-<h1 style="margin: 0; font-size: 76px; line-height: 0.95; color: #FFFFFF">Del escaneo al modelo. De la obra a la operación.</h1>
+<h1 style="margin: 0; font-size: clamp(42px, 8vw, 76px); line-height: 0.95; color: #FFFFFF">Del escaneo al modelo. De la obra a la operación.</h1>
 <p style="margin: 0; font-size: 19px; line-height: 1.6; color: #C9D1C5; max-width: 560px">Capturamos, modelamos y gestionamos la información de edificios e infraestructuras durante todo su ciclo de vida, con equipo y tecnología propios.</p>
 <div style="display: flex; gap: 14px; flex-wrap: wrap">
 <a href="#perfiles" style="background: #B8E03A; color: #0E110E; text-decoration: none; font-weight: 600; padding: 15px 24px; border-radius: 3px">Encuentra tu solución</a>
 <a href="#casos" style="border: 1px solid #5B6657; color: #FFFFFF; text-decoration: none; font-weight: 500; padding: 14px 24px; border-radius: 3px">Ver casos</a>
 </div>
 </div>
-<figure style="margin: 0; display: flex; flex-direction: column; align-items: center; gap: 12px">
-<svg viewBox="0 0 480 480" width="100%" style="max-width: 460px" role="img" aria-label="Edificio despiezado por plantas en estilo nube de puntos">
-<g fill="rgba(184,224,58,0.05)" stroke="#B8E03A" stroke-width="3" stroke-linecap="round" stroke-dasharray="0.1 8">
-<polygon points="240,40 420,130 240,220 60,130"></polygon>
-<polygon points="240,100 420,190 240,280 60,190"></polygon>
-<polygon points="240,160 420,250 240,340 60,250"></polygon>
-<polygon points="240,220 420,310 240,400 60,310"></polygon>
-<polygon points="240,280 420,370 240,460 60,370"></polygon>
-</g>
-<g stroke="#E4F2B8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="0.1 6" fill="none">
-<line x1="60" y1="130" x2="60" y2="370"></line>
-<line x1="240" y1="220" x2="240" y2="460"></line>
-<line x1="420" y1="130" x2="420" y2="370"></line>
-<line x1="150" y1="175" x2="330" y2="85"></line>
-<line x1="150" y1="355" x2="330" y2="265"></line>
-</g>
-<g stroke="#6F8F2A" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.1 9" fill="none">
-<line x1="240" y1="40" x2="240" y2="280"></line>
-</g>
-</svg>
-<figcaption style="font-size: 13px; color: #8C968A">[Sustituir por una nube de puntos real: subestación, tienda o edificio despiezado]</figcaption>
-</figure>
+<figure style="margin: 0; display: flex; justify-content: center"><img src="assets/despiece.webp" alt="Nube de puntos de un edificio, despiezada por plantas" width="590" height="917" style="width: 100%; max-width: 380px; height: auto; display: block"></figure>
 </div>
 </section>
 
@@ -286,7 +267,7 @@ button,input,select,textarea{font:inherit}
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr)); gap: 20px">
 
 <article style="background: #FFFFFF; border: 1px solid #D5DBD0; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column">
-<div class="dots" style="background-color: #0E110E; height: 200px; display: flex; align-items: center; justify-content: center; padding: 16px; text-align: center; color: #8C968A; font-size: 13px">[Imagen: nube de puntos de tienda]</div>
+<div style="background: #FFFFFF; border-bottom: 1px solid #D5DBD0; height: 220px; display: flex; align-items: center; justify-content: center; padding: 12px"><img src="assets/caso-tiendas.jpg" alt="Nube de puntos de una tienda en esquina" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block"></div>
 <div style="padding: 24px; display: flex; flex-direction: column; gap: 14px">
 <div style="display: flex; gap: 8px; flex-wrap: wrap"><span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #3F6A00">Retail</span><span style="font-size: 12px; color: #4A524A">· Captura · BIM</span></div>
 <h3 style="margin: 0; font-size: 28px; line-height: 1.05">Campañas de escaneo de tiendas en 13 países</h3>
@@ -300,7 +281,7 @@ button,input,select,textarea{font:inherit}
 </article>
 
 <article style="background: #FFFFFF; border: 1px solid #D5DBD0; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column">
-<div class="dots" style="background-color: #0E110E; height: 200px; display: flex; align-items: center; justify-content: center; padding: 16px; text-align: center; color: #8C968A; font-size: 13px">[Imagen: modelo federado de obra]</div>
+<div style="background: #FFFFFF; border-bottom: 1px solid #D5DBD0; height: 220px; display: flex; align-items: center; justify-content: center; padding: 12px"><img src="assets/caso-ruiz-picasso.jpg" alt="Modelo BIM del edificio Ruiz Picasso" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block"></div>
 <div style="padding: 24px; display: flex; flex-direction: column; gap: 14px">
 <div style="display: flex; gap: 8px; flex-wrap: wrap"><span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #3F6A00">Oficinas</span><span style="font-size: 12px; color: #4A524A">· BIM en obra</span></div>
 <h3 style="margin: 0; font-size: 28px; line-height: 1.05">BIM Manager en obra: edificio Ruiz Picasso</h3>
@@ -314,7 +295,7 @@ button,input,select,textarea{font:inherit}
 </article>
 
 <article style="background: #FFFFFF; border: 1px solid #D5DBD0; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column">
-<div class="dots" style="background-color: #0E110E; height: 200px; display: flex; align-items: center; justify-content: center; padding: 16px; text-align: center; color: #8C968A; font-size: 13px">[Imagen: nube de puntos de subestación]</div>
+<div class="dots" style="background-color: #0E110E; height: 220px; display: flex; align-items: center; justify-content: center; padding: 12px"><img src="assets/subestacion.webp" alt="Nube de puntos de una subestación eléctrica" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block"></div>
 <div style="padding: 24px; display: flex; flex-direction: column; gap: 14px">
 <div style="display: flex; gap: 8px; flex-wrap: wrap"><span style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #3F6A00">Energía</span><span style="font-size: 12px; color: #4A524A">· Captura · Activos</span></div>
 <h3 style="margin: 0; font-size: 28px; line-height: 1.05">Subestación de alta tensión</h3>
