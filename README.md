@@ -14,3 +14,5 @@ Las URLs `/propietarios` y `/captura` funcionan sin extensión en Cloudflare Pag
 Los textos entre [corchetes] son huecos pendientes de datos o imágenes reales.
 
 Estilo: fondo blanco y mucho aire, como la web del CV de Álex (Inter + JetBrains Mono, titulares en mayúsculas, etiquetas pequeñas, botones en píldora, bloques separados por filetes). El gris de marca es el del logo (#333333) y se usa en titulares, botones, baldosas de imagen y pie. El acento es el lima de Analytical Reality (#BFFF00), solo como marcador.
+
+Estructura de cada página: secciones a pantalla completa («diapositivas») con dos capas de información. La capa 1 es lo que se lee en unos 90 segundos: titular y un solo bloque visual por sección (cifras, selector, pasos o imágenes). La capa 2 es el detalle, tras un botón «+», y nunca repite el texto de la capa 1.
